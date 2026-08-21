@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail — Suzhou Vigor New Materials Co., Ltd.</title>
+  <meta name="description" content="Detailed product information, specifications, and inquiry options for Suzhou Vigor acoustic panels.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header scrolled">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="image/logo.png" alt="Suzhou Vigor Logo" style="height: 40px; width: auto; margin-right: 8px;">
+        <span>Suzhou Vigor</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" class="nav-cta">Inquiry</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Product Detail -->
+  <div id="product-detail-container">
+    <div class="product-detail">
+      <div class="container">
+        <a href="products.html" class="back-link" style="display: block; margin-bottom: 20px;">← Back to Products</a>
+
+        <!-- ✅ 核心修改区：强制使用 Flex 布局实现完美的左右分栏 -->
+        <div class="product-detail-grid" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; justify-content: space-between;">
+          
+          <!-- 左侧部分：产品画廊（大图在上，缩略图在下） -->
+          <div class="product-gallery" style="flex: 1 1 45%; min-width: 320px; display: flex; flex-direction: column; gap: 15px;">
+            <!-- 产品主图 (大图) -->
+            <div class="product-main-img" id="product-main-img" style="width: 100%;">
+               <img id="main-product-image" src="" alt="Product Image" style="width: 100%; height: auto; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; display: block;">
+            </div>
+            <!-- 缩略图 (排列在大图正下方) -->
+            <div class="product-thumbnails" id="product-thumbnails" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px;">
+              <!-- Rendered by JS -->
+            </div>
+          </div>
+
+          <!-- 右侧部分：产品文字与表格信息 -->
+          <div class="product-info" style="flex: 1 1 45%; min-width: 320px;">
+            <span class="category-tag" id="product-category" style="display: inline-block; margin-bottom: 10px;">Wood Veneer Series</span>
+            <h1 id="product-name" style="margin-top: 0;">Wood Veneer Acoustic Panel</h1>
+            <p class="product-description" id="product-description"></p>
+
+            <table class="specs-table" id="specs-table" style="width: 100%; margin-top: 20px;">
+              <!-- Rendered by JS -->
+            </table>
+
+            <div class="product-actions" style="margin-top: 30px; display: flex; gap: 15px;">
+              <a href="contact.html" class="btn btn-primary">Send Inquiry</a>
+              <a href="#" id="whatsapp-product-link" class="btn btn-outline" style="color:var(--color-primary);border-color:var(--color-primary);">WhatsApp Inquiry</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- ✅ 左右分栏结束 -->
+
+        <!-- 底部区域：产品详情长图 (居中铺满) -->
+        <div class="detail-image" style="margin-top: 60px; width: 100%;">
+          <img id="detail-image" src="" alt="Product Detail Information" style="width: 100%; height: auto; border-radius: 8px; display: block;">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Suzhou Vigor New Materials Co., Ltd.</h3>
+          <p>Premium acoustic panel manufacturer for commercial and residential applications worldwide.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <a href="products.html?category=wood-veneer">Wood Veneer Series</a>
+          <a href="products.html?category=ps-slat">PS Slat Series</a>
+          <a href="products.html?category=hexagon-wood">Hexagon Series</a>
+          <a href="products.html?category=curved-flexible">Curved Series</a>
+          <a href="products.html?category=special-shape">Special Shape Series</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="products.html">All Products</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:info@csvigor.com">info@csvigor.com</a>
+          <a href="tel:+8651225282160">0512-52828160</a>
+          <a href="tel:+8613812831131">+86 13812831131</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Suzhou Vigor New Materials Co., Ltd. All rights reserved.</p>
+        <p><a href="https://www.csvigor.com" target="_blank">www.csvigor.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
