@@ -1,0 +1,851 @@
+/* ============================================
+   Product Data & Catalog Functions
+   Suzhou Vigor New Materials Co., Ltd.
+   ============================================ */
+
+const products = [
+  /* ---------- Wood Veneer Series ---------- */
+  {
+    id: 'wood-veneer-1',
+    name: 'Eco Friendly Wooden Soundproof Board Wood Slat Acoustic Wall Panel Akupanel Sound Absorbing Panelling',
+    nameZh: '环保木质隔音板木条吸音墙板Akupanel吸音板',
+    category: 'wood-veneer',
+    categoryName: 'Wood Veneer Series',
+    description: 'Crafted with high-quality engineered surfaces, our wood veneer acoustic panels deliver the sophisticated look of natural wood while offering exceptional acoustic performance. Designed to effectively control sound reverberation and reduce echo, these panels combine modern aesthetic elegance with reliable durability for commercial and residential spaces.',
+    descriptionZh: '采用高品质工程饰面打造的木饰面吸音板，呈现自然木纹的精致质感，同时具备出色的声学性能。有效控制混响、降低回声，兼具现代美学与可靠耐用性，适用于商业及住宅空间。',
+    coverimage: 'image/product/wood-veneer-1/cover.jpg',
+    images: [
+      'image/product/wood-veneer-1/1.jpg',
+      'image/product/wood-veneer-1/2.jpg',
+      'image/product/wood-veneer-1/3.jpg',
+      'image/product/wood-veneer-1/4.jpg',
+      'image/product/wood-veneer-1/5.jpg',
+      'image/product/wood-veneer-1/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak, Walnut, Walnut JK, Grey Oak, Black Oak, W.Oak, Smoke Oak',
+    thickness: '21mm',
+    size: '2400x600mm',
+    nrc: '0.85 (NRC)',
+    application: 'Conference Rooms, Auditoriums, Hotels, Offices, Home Theaters, Recording Studios...',
+    features: [
+      'Premium engineered wood veneer surface finish',
+      'Excellent sound absorption across wide frequency range',
+      'Eco-friendly PET fiber core, zero formaldehyde',
+      'Easy installation with glue or direct screws',
+      'Moisture resistant and dimensionally stable',
+      'Available in multiple wood finishes and custom colors'
+    ],
+    details: 'Our Wood Veneer Acoustic Panels are crafted with high-quality engineered surfaces bonded to a high-density 100% polyester fiber acoustic core. Each panel undergoes precise cutting, edge sealing, and surface finishing to ensure consistent quality and aesthetic appeal. The micro-porous PET core effectively absorbs sound across a broad frequency spectrum, reducing reverberation and improving speech clarity. Custom sizes, colors, and groove patterns are available upon request.'
+  },
+  {
+    id: 'wood-veneer-2',
+    name: 'Easy-to-Install Wooden Wood Veneer Acoustic Wall Panels Decor Interior Sound Absorbing Board Soundproof Panel',
+    nameZh: '易于安装的木质单板隔音墙板装饰室内吸音板隔音板',
+    category: 'wood-veneer',
+    categoryName: 'Wood Veneer Series',
+    description: 'Crafted with high-quality engineered surfaces, our wood veneer acoustic panels deliver the sophisticated look of natural wood while offering exceptional acoustic performance. Designed to effectively control sound reverberation and reduce echo, these panels combine modern aesthetic elegance with reliable durability for commercial and residential spaces.',
+    descriptionZh: '采用高品质工程饰面打造的木饰面吸音板，呈现自然木纹的精致质感，同时具备出色的声学性能。有效控制混响、降低回声，兼具现代美学与可靠耐用性，适用于商业及住宅空间。',
+    coverimage: 'image/product/wood-veneer-2/cover.jpg',
+    images: [
+      'image/product/wood-veneer-2/1.jpg',
+      'image/product/wood-veneer-2/2.jpg',
+      'image/product/wood-veneer-2/3.jpg',
+      'image/product/wood-veneer-2/4.jpg',
+      'image/product/wood-veneer-2/5.jpg',
+      'image/product/wood-veneer-2/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak, Walnut, Walnut JK, Grey Oak, Black Oak, W.Oak, Smoke Oak',
+    thickness: '21mm',
+    size: '2400x600mm',
+    nrc: '0.85 (NRC)',
+    application: 'Conference Rooms, Auditoriums, Hotels, Offices, Home Theaters, Recording Studios...',
+    features: [
+      '3D fluted surface adds depth and visual interest',
+      'Effective mid-to-high frequency sound absorption',
+      'Warm wood veneer look with engineered surface',
+      'Glue or screw mounting for quick installation',
+      'Moisture resistant and easy to clean'
+    ],
+    details: 'The 3D fluted profile of this panel creates a rhythm of light and shadow on the wall while its 100% polyester fiber core quietly controls echo and reverberation. Ideal for media rooms where both acoustics and atmosphere matter.'
+  },
+  {
+    id: 'wood-veneer-3',
+    name: 'High Quality Wood Slat Acoustic Panel Interior Decor Soundproof Sound Absorbing Board Akupanel for Wall',
+    nameZh: '优质木条吸音板室内装饰墙体吸音板',
+    category: 'wood-veneer',
+    categoryName: 'Wood Veneer Series',
+     description: 'Crafted with high-quality engineered surfaces, our wood veneer acoustic panels deliver the sophisticated look of natural wood while offering exceptional acoustic performance. Designed to effectively control sound reverberation and reduce echo, these panels combine modern aesthetic elegance with reliable durability for commercial and residential spaces.',
+    descriptionZh: '采用高品质工程饰面打造的木饰面吸音板，呈现自然木纹的精致质感，同时具备出色的声学性能。有效控制混响、降低回声，兼具现代美学与可靠耐用性，适用于商业及住宅空间。',
+    coverimage: 'image/product/wood-veneer-3/cover.jpg',
+    images: [
+      'image/product/wood-veneer-3/1.jpg',
+      'image/product/wood-veneer-3/2.jpg',
+      'image/product/wood-veneer-3/3.jpg',
+      'image/product/wood-veneer-3/4.jpg',
+      'image/product/wood-veneer-3/5.jpg',
+      'image/product/wood-veneer-3/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak, Walnut, Walnut JK, Grey Oak, Black Oak, W.Oak, Smoke Oak',
+    thickness: '21mm',
+    size: '2400x600mm',
+    nrc: '0.85 (NRC)',
+    application: 'Conference Rooms, Auditoriums, Hotels, Offices, Home Theaters, Recording Studios...',
+    features: [
+      'Classic slat groove pattern with PET felt backing',
+      'High sound absorption for noisy open-plan spaces',
+      'Stable engineered surface, consistent color and grain',
+      'Simple glue-up installation saves labor time',
+      'Class B1 fire rating for commercial safety'
+    ],
+    details: 'Combining a slatted wood-veneer face with a dense PET felt backing, this panel delivers strong broadband absorption and a clean professional look. It is a popular choice for fit-out projects that demand both acoustic performance and a consistent, repeatable finish.'
+  },
+  {
+    id: 'wood-veneer-4',
+    name: 'Customized Indoor Wood Slat Acoustic Wall Panels Akupanels Recyclable Soundproof Sound Absorbing Board',
+    nameZh: '定制室内木条吸音墙板Akupanels可回收吸音板',
+    category: 'wood-veneer',
+    categoryName: 'Wood Veneer Series',
+    description: 'Crafted with high-quality engineered surfaces, our wood veneer acoustic panels deliver the sophisticated look of natural wood while offering exceptional acoustic performance. Designed to effectively control sound reverberation and reduce echo, these panels combine modern aesthetic elegance with reliable durability for commercial and residential spaces.',
+    descriptionZh: '采用高品质工程饰面打造的木饰面吸音板，呈现自然木纹的精致质感，同时具备出色的声学性能。有效控制混响、降低回声，兼具现代美学与可靠耐用性，适用于商业及住宅空间。',
+    coverimage: 'image/product/wood-veneer-4/cover.jpg',
+    images: [
+      'image/product/wood-veneer-4/1.jpg',
+      'image/product/wood-veneer-4/2.jpg',
+      'image/product/wood-veneer-4/3.jpg',
+      'image/product/wood-veneer-4/4.jpg',
+      'image/product/wood-veneer-4/5.jpg',
+      'image/product/wood-veneer-4/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak, Walnut, Walnut JK, Grey Oak, Black Oak, W.Oak, Smoke Oak',
+    thickness: '21mm',
+    size: '2400x600mm',
+    nrc: '0.85 (NRC)',
+    application: 'Conference Rooms, Auditoriums, Hotels, Offices, Home Theaters, Recording Studios...',
+    features: [
+      'Premium white oak finish with elegant matte texture',
+      '21mm thick construction for a solid premium feel',
+      'Improves speech clarity in meeting spaces',
+      'Zero formaldehyde PET fiber core',
+      'Custom groove spacing available for branded walls'
+    ],
+    details: 'The 21mm profile gives this white oak panel a substantial, high-end presence while the polyester fiber core controls reverberation so conversations stay crisp. A refined choice for corporate interiors that represent your brand.'
+  },
+
+  /* ---------- PS Slat Series ---------- */
+  {
+    id: 'ps-slat-1',
+    name: 'High Quality Acoustic Ceiling Panels PS Slat Soundproof Wall Panels Sound Insulation Panel Noise Reduction Board',
+    nameZh: '优质吸音天花板PS板隔音墙板隔音板降噪板',
+    category: 'ps-slat',
+    categoryName: 'PS Slat Series',
+    description: 'Engineered with durable polystyrene (PS) materials, our PS slat acoustic panels deliver a sleek, modern wood-look finish without the use of natural wood. These panels combine high-performance sound absorption with moisture-resistant durability, offering an ideal, eco-conscious wall and ceiling solution for contemporary commercial and residential interiors.',
+    descriptionZh: '我们的PS板条隔音板采用耐用的聚苯乙烯（PS）材料设计，在不使用天然木材的情况下，提供光滑、现代的木材外观。这些面板将高性能吸音与防潮耐久性相结合，为当代商业和住宅室内提供了一种理想的、具有环保意识的墙壁和天花板解决方案。',
+    coverimage: 'image/product/PS-slat-1/cover.jpg',
+    images: [
+      'image/product/PS-slat-1/1.jpg',
+      'image/product/PS-slat-1/2.jpg',
+      'image/product/PS-slat-1/3.jpg',
+      'image/product/PS-slat-1/4.jpg',
+      'image/product/PS-slat-1/5.jpg',
+      'image/product/PS-slat-1/6.jpg'
+    ],
+    pattern: 'hex-pattern',
+    material: '100% Polyester Fiber, MDF',
+    color: 'Colorful Black,Retro Blue,Customization',
+    thickness: '21mm',
+    size: '2400*600mm/2700*600mm/3000*600mm/600*600mm,Customization',
+    nrc: '0.85(NRC)',
+    application: 'Living rooms, Home offices, Media rooms, Conference rooms, Hotel lobbies, Restaurant...',
+    features: [
+      'Natural Himalayan salt crystal inlay for air purification',
+      'Negative ion release for improved indoor air quality',
+      'Superior mid-to-high frequency sound absorption',
+      'Unique aesthetic with backlighting capability',
+      'Lightweight and easy to install',
+      'Moisture regulating properties'
+    ],
+    details: 'The PS Salt Acoustic Panel merges acoustic engineering with wellness technology. Each panel features carefully selected Himalayan salt crystals embedded within a precision-molded PS frame backed by high-performance acoustic fabric. When illuminated, the translucent salt crystals create a warm, soothing amber glow that transforms any space into a sanctuary of calm.'
+  },
+  {
+    id: 'ps-slat-2',
+    name: 'Effective Noise Reduction Sound Absorbing Panel Eco Friendly PS Slat Design Wood Acoustic Panel for Indoor Use',
+    nameZh: '高效降噪吸音板环保PS板条设计室内用木质吸音板',
+    category: 'ps-slat',
+    categoryName: 'PS Slat Series',
+    description: 'Engineered with durable polystyrene (PS) materials, our PS slat acoustic panels deliver a sleek, modern wood-look finish without the use of natural wood. These panels combine high-performance sound absorption with moisture-resistant durability, offering an ideal, eco-conscious wall and ceiling solution for contemporary commercial and residential interiors.',
+    descriptionZh: '我们的PS板条隔音板采用耐用的聚苯乙烯（PS）材料设计，在不使用天然木材的情况下，提供光滑、现代的木材外观。这些面板将高性能吸音与防潮耐久性相结合，为当代商业和住宅室内提供了一种理想的、具有环保意识的墙壁和天花板解决方案。',
+    coverimage: 'image/product/PS-slat-2/cover.jpg',
+    images: [
+      'image/product/PS-slat-2/1.jpg',
+      'image/product/PS-slat-2/2.jpg',
+      'image/product/PS-slat-2/3.jpg',
+      'image/product/PS-slat-2/4.jpg',
+      'image/product/PS-slat-2/5.jpg',
+      'image/product/PS-slat-2/6.jpg'
+    ],
+    material: '100% Polyester Fiber, MDF',
+    color: 'Colorful Black,Retro Blue,Customization',
+    thickness: '21mm',
+    size: '2400*600mm/2700*600mm/3000*600mm/600*600mm,Customization',
+    nrc: '0.85(NRC)',
+    application: 'Living rooms, Home offices, Media rooms, Conference rooms, Hotel lobbies, Restaurant...',
+    features: [
+      'Trendy PS slat design with wood-look finish',
+      'Lightweight, easy DIY installation',
+      'Effective sound absorption for residential spaces',
+      'Water-resistant and low maintenance',
+      'Affordable premium look for home decoration'
+    ],
+    details: 'This PS slat panel brings the popular slatted-wall aesthetic to residential interiors at a budget-friendly price. The polyester fiber core dampens everyday noise, making it a favorite for living room and TV wall projects.'
+  },
+  {
+    id: 'ps-slat-3',
+    name: 'PS Slat Acoustic Panel Soundproof Board for Wall and Ceiling Noise Reduction Sound Absorbing Panel Boards',
+    nameZh: 'PS板条隔音板用于墙壁和天花板降噪吸音板',
+    category: 'ps-slat',
+    categoryName: 'PS Slat Series',
+    description: 'Engineered with durable polystyrene (PS) materials, our PS slat acoustic panels deliver a sleek, modern wood-look finish without the use of natural wood. These panels combine high-performance sound absorption with moisture-resistant durability, offering an ideal, eco-conscious wall and ceiling solution for contemporary commercial and residential interiors.',
+    descriptionZh: '我们的PS板条隔音板采用耐用的聚苯乙烯（PS）材料设计，在不使用天然木材的情况下，提供光滑、现代的木材外观。这些面板将高性能吸音与防潮耐久性相结合，为当代商业和住宅室内提供了一种理想的、具有环保意识的墙壁和天花板解决方案。',
+    coverimage: 'image/product/PS-slat-3/cover.jpg',
+    images: [
+      'image/product/PS-slat-3/1.jpg',
+      'image/product/PS-slat-3/2.jpg',
+      'image/product/PS-slat-3/3.jpg',
+      'image/product/PS-slat-3/4.jpg',
+      'image/product/PS-slat-3/5.jpg',
+      'image/product/PS-slat-3/6.jpg'
+    ],
+    material: '100% Polyester Fiber, MDF',
+    color: 'Colorful Black,Retro Blue,Customization',
+    thickness: '21mm',
+    size: '2400*600mm/2700*600mm/3000*600mm/600*600mm,Customization',
+    nrc: '0.85(NRC)',
+    application: 'Living rooms, Home offices, Media rooms, Conference rooms, Hotel lobbies, Restaurant...',
+    features: [
+      '100% waterproof PS surface',
+      'Realistic wood grain printing options',
+      'Glue or screw installation in minutes',
+      'No painting or sealing required',
+      'Anti-mold and easy to wipe clean'
+    ],
+    details: 'Engineered for damp environments where traditional wood panels fail, this waterproof PS panel keeps the warmth of wood grain without swelling, warping, or mold growth. Ideal for kitchens, bathrooms, and cafe interiors.'
+  },
+  {
+    id: 'ps-slat-4',
+    name: 'Vigor Factory Modern PS Acoustic Wall Slat Panels Noise-Reducing Soundproof for Bedroom Hall School Hospital-Model Akupanel',
+    nameZh: 'Vigor Factory现代PS隔音墙板降噪卧室大厅学校医院模型Akupanel',
+    category: 'ps-slat',
+    categoryName: 'PS Slat Series',
+    description: 'Engineered with durable polystyrene (PS) materials, our PS slat acoustic panels deliver a sleek, modern wood-look finish without the use of natural wood. These panels combine high-performance sound absorption with moisture-resistant durability, offering an ideal, eco-conscious wall and ceiling solution for contemporary commercial and residential interiors.',
+    descriptionZh: '我们的PS板条隔音板采用耐用的聚苯乙烯（PS）材料设计，在不使用天然木材的情况下，提供光滑、现代的木材外观。这些面板将高性能吸音与防潮耐久性相结合，为当代商业和住宅室内提供了一种理想的、具有环保意识的墙壁和天花板解决方案。',
+    coverimage: 'image/product/PS-slat-4/cover.jpg',
+    images: [
+      'image/product/PS-slat-4/1.jpg',
+      'image/product/PS-slat-4/2.jpg',
+      'image/product/PS-slat-4/3.jpg',
+      'image/product/PS-slat-4/4.jpg',
+      'image/product/PS-slat-4/5.jpg',
+      'image/product/PS-slat-4/6.jpg'
+    ],
+    material: '100% Polyester Fiber, MDF',
+    color: 'Colorful Black,Retro Blue,Customization',
+    thickness: '21mm',
+    size: '2400*600mm/2700*600mm/3000*600mm/600*600mm,Customization',
+    nrc: '0.85(NRC)',
+    application: 'Living rooms, Home offices, Media rooms, Conference rooms, Hotel lobbies, Restaurant...',
+    features: [
+      'High NRC 0.9 for busy hospitality spaces',
+      'Elegant acoustic fabric backing',
+      'Wide color range to match interior schemes',
+      'Durable surface resists scratches and stains',
+      'Quick installation with minimal disruption'
+    ],
+    details: 'In restaurants and hotel lobbies, reverberation ruins the atmosphere. This PS panel pairs a modern slat face with acoustic fabric to soak up noise while keeping the space visually warm and inviting.'
+  },
+
+  /* ---------- Hexagon Series ---------- */
+  {
+    id: 'hexagon-wood-1',
+    name: 'Hexagon MDF Wooden Acoustic Panel Wood Soundproof Board Wall Ceiling Noise Reduction Sound Absorbing Panel',
+    nameZh: '六角形MDF木质吸音板木质隔音板墙面天花板降噪吸音板',
+    category: 'hexagon-wood',
+    categoryName: 'Hexagon Series',
+    description: 'Featuring a geometric hexagonal design with an engineered wood-look finish, these acoustic panels bring modern artistic flair to any wall without the use of natural wood. Combining exceptional sound absorption with a lightweight, modular structure, they offer a creative and eco-conscious way to shape custom acoustic patterns in contemporary spaces.',
+    descriptionZh: '这些隔音板采用几何六边形设计，具有工程木材外观，在不使用天然木材的情况下，为任何墙壁带来现代艺术气息。它们将卓越的吸音性能与轻质模块化结构相结合，为在当代空间中塑造定制的声学模式提供了一种富有创意和环保意识的方式。',
+    coverimage: 'image/product/hexagon-wood-1/cover.jpg',
+    images: [
+      'image/product/product/hexagon-wood-1/1.jpg',
+      'image/product/product/hexagon-wood-1/2.jpg',
+      'image/product/product/hexagon-wood-1/3.jpg',
+      'image/product/product/hexagon-wood-1/4.jpg',
+      'image/product/product/hexagon-wood-1/5.jpg',
+      'image/product/product/hexagon-wood-1/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak,Black Oak,Grey Oak,Smoke Oak,W.Oak,Customization',
+    thickness: '18mm',
+    size: '795mm*650mm*18mm',
+    nrc: '0.85(NRC)',
+    application: 'Accent walls, Creative office spaces, Recording studios, Hotel lounges, Modern entryways, Feature walls...',
+    features: [
+      'Unique hexagonal shape for creative wall designs',
+      'Modular system for endless pattern configurations',
+      'Premium wood finish with acoustic felt backing',
+      'Excellent mid-frequency sound absorption',
+      'Can be mixed with different colors for artistic effects',
+      'Simple clip-mount installation system'
+    ],
+    details: 'The Hexagon Wood Acoustic Panel brings geometry and acoustics together in perfect harmony. Each hexagonal module is precision-cut from high-quality MDF with a wood veneer or painted finish, backed by dense acoustic felt. Arrange panels in honeycomb clusters, flowing waves, gradient patterns, or scattered artistic compositions.'
+  },
+  {
+    id: 'hexagon-wood-2',
+    name: 'Sound-absorbing MDF & Polyester Fiber Acoustic Wooden Hexagonal Wall Panels',
+    nameZh: '吸音中密度纤维板和聚酯纤维吸音木六角形墙板',
+    category: 'hexagon-wood',
+    categoryName: 'Hexagon Series',
+    description: 'Featuring a geometric hexagonal design with an engineered wood-look finish, these acoustic panels bring modern artistic flair to any wall without the use of natural wood. Combining exceptional sound absorption with a lightweight, modular structure, they offer a creative and eco-conscious way to shape custom acoustic patterns in contemporary spaces.',
+    descriptionZh: '这些隔音板采用几何六边形设计，具有工程木材外观，在不使用天然木材的情况下，为任何墙壁带来现代艺术气息。它们将卓越的吸音性能与轻质模块化结构相结合，为在当代空间中塑造定制的声学模式提供了一种富有创意和环保意识的方式。',
+    coverimage: 'image/product/hexagon-wood-2/cover.jpg',
+    images: [
+      'image/product/product/hexagon-wood-2/1.jpg',
+      'image/product/product/hexagon-wood-2/2.jpg',
+      'image/product/product/hexagon-wood-2/3.jpg',
+      'image/product/product/hexagon-wood-2/4.jpg',
+      'image/product/product/hexagon-wood-2/5.jpg',
+      'image/product/product/hexagon-wood-2/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak,Black Oak,Grey Oak,Smoke Oak,W.Oak,Customization',
+    thickness: '18mm',
+    size: '795mm*650mm*18mm',
+    nrc: '0.85(NRC)',
+    application: 'Accent walls, Creative office spaces, Recording studios, Hotel lounges, Modern entryways, Feature walls...',
+    features: [
+      'Sculptural 3D honeycomb relief effect',
+      'Modular tiles for seamless pattern assembly',
+      'Strong mid-frequency absorption',
+      'Lightweight and easy to arrange',
+      'Multiple color mixing for gradient art walls'
+    ],
+    details: 'A statement piece for lobbies and living rooms, this honeycomb hexagon panel creates a three-dimensional wall installation that doubles as effective acoustic treatment.'
+  },
+  {
+    id: 'hexagon-wood-3',
+    name: 'Eco Friendly Self-Adhesive Soundproof Acoustic Board Decorative Wooden Akupanel Wall Wood Hexagon Acoustic Panel',
+    nameZh: '环保自粘隔音板装饰木Akupanel墙木六角形吸音板',
+    category: 'hexagon-wood',
+    categoryName: 'Hexagon Series',
+    description: 'Featuring a geometric hexagonal design with an engineered wood-look finish, these acoustic panels bring modern artistic flair to any wall without the use of natural wood. Combining exceptional sound absorption with a lightweight, modular structure, they offer a creative and eco-conscious way to shape custom acoustic patterns in contemporary spaces.',
+    descriptionZh: '这些隔音板采用几何六边形设计，具有工程木材外观，在不使用天然木材的情况下，为任何墙壁带来现代艺术气息。它们将卓越的吸音性能与轻质模块化结构相结合，为在当代空间中塑造定制的声学模式提供了一种富有创意和环保意识的方式。',
+    coverimage: 'image/product/hexagon-wood-3/cover.jpg',
+    images: [
+      'image/product/product/hexagon-wood-3/1.jpg',
+      'image/product/product/hexagon-wood-3/2.jpg',
+      'image/product/product/hexagon-wood-3/3.jpg',
+      'image/product/product/hexagon-wood-3/4.jpg',
+      'image/product/product/hexagon-wood-3/5.jpg',
+      'image/product/product/hexagon-wood-3/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak,Black Oak,Grey Oak,Smoke Oak,W.Oak,Customization',
+    thickness: '18mm',
+    size: '795mm*650mm*18mm',
+    nrc: '0.85(NRC)',
+    application: 'Accent walls, Creative office spaces, Recording studios, Hotel lounges, Modern entryways, Feature walls...',
+    features: [
+      'Peel-and-stick backing, no tools needed',
+      'High-density PET felt is soft and safe',
+      'Cuts echo and flutter in small rooms',
+      'Fire retardant Class B1',
+      'Easy to remove and reposition'
+    ],
+    details: 'With a simple peel-and-stick backing, this PET felt hexagon panel can be installed by anyone in minutes. Its soft, dense felt construction absorbs sound while adding a playful geometric accent to any room.'
+  },
+  {
+    id: 'hexagon-wood-4',
+    name: 'High Quality Hexagon MDF Wooden Sound Absorbing Panel Wood Noise Reduction Wall Panels Acoustic Ceiling Boards',
+    nameZh: '优质六角MDF木质吸音板木质降噪墙板吸音天花板',
+    category: 'hexagon-wood',
+    categoryName: 'Hexagon Series',
+    description: 'Featuring a geometric hexagonal design with an engineered wood-look finish, these acoustic panels bring modern artistic flair to any wall without the use of natural wood. Combining exceptional sound absorption with a lightweight, modular structure, they offer a creative and eco-conscious way to shape custom acoustic patterns in contemporary spaces.',
+    descriptionZh: '这些隔音板采用几何六边形设计，具有工程木材外观，在不使用天然木材的情况下，为任何墙壁带来现代艺术气息。它们将卓越的吸音性能与轻质模块化结构相结合，为在当代空间中塑造定制的声学模式提供了一种富有创意和环保意识的方式。',
+    coverimage: 'image/product/hexagon-wood-4/cover.jpg',
+    images: [
+      'image/product/product/hexagon-wood-4/1.jpg',
+      'image/product/product/hexagon-wood-4/2.jpg',
+      'image/product/product/hexagon-wood-4/3.jpg',
+      'image/product/product/hexagon-wood-4/4.jpg',
+      'image/product/product/hexagon-wood-4/5.jpg',
+      'image/product/product/hexagon-wood-4/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak,Black Oak,Grey Oak,Smoke Oak,W.Oak,Customization',
+    thickness: '18mm',
+    size: '795mm*650mm*18mm',
+    nrc: '0.85(NRC)',
+    application: 'Accent walls, Creative office spaces, Recording studios, Hotel lounges, Modern entryways, Feature walls...',
+    features: [
+      'Tames early reflections in small acoustic spaces',
+      'Bold geometric style suits gaming setups',
+      'Acoustic felt backing adds broadband absorption',
+      'Custom color mixing for themed rooms',
+      'Durable finish resists scuffs and marks'
+    ],
+    details: 'From podcast studios to gaming dens, this hexagonal panel delivers the acoustic polish creators need. Combine colors to design a wall that looks as good as the room sounds.'
+  },
+
+  /* ---------- Curved Flexible Series ---------- */
+  {
+    id: 'curved-flexible',
+    name: 'Customized Flexible Curved Acoustic Panel High-Density PET Felt Sound Absorbing Sheet Factory Direct Wholesale for Soundproofing',
+    nameZh: '定制柔性曲面吸音板高密度PET毡吸音板厂家直销隔音',
+    category: 'curved-flexible',
+    categoryName: 'Curved Series',
+    description: 'Engineered with a flexible and bendable structure, these acoustic panels easily adapt to curved walls, rounded columns, and unique architectural contours. Combining exceptional sound absorption with a sleek, modern surface finish, they offer a versatile and creative solution for shaping smooth, continuous designs in contemporary spaces.',
+    descriptionZh: '这些隔音板采用灵活可弯曲的结构，可以轻松适应弯曲的墙壁、圆形的柱子和独特的建筑轮廓。它们将卓越的吸音性能与光滑、现代的表面处理相结合，为在当代空间中塑造光滑、连续的设计提供了一种多功能和创造性的解决方案。',
+    coverimage: 'image/product/curved-flexible-1/cover.jpg',
+    images: [
+      'image/product/product/curved-flexible-1/1.jpg',
+      'image/product/product/curved-flexible-1/2.jpg',
+      'image/product/product/curved-flexible-1/3.jpg',
+      'image/product/product/curved-flexible-1/4.jpg',
+      'image/product/product/curved-flexible-1/5.jpg',
+      'image/product/product/curved-flexible-1/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber, Wood Veneer',
+    color: 'White Oak, Walnut, Walnut JK, Grey Oak, Black Oak, W.Oak, Smoke Oak',
+    thickness: '21mm',
+    size: '2400*600mm*21mm/2700*600mm*21mm/3000*600mm*2121mm/600*600mm*2121mm',
+    nrc: '0.85(NRC)',
+    application: 'Curved walls, Pillar wrapping, Rounded room corners, Reception desks, Column cladding...',
+    features: [
+      'Flexible design conforms to curved surfaces',
+      'Can be bent to minimum radius of 300mm',
+      'Available in endless color and fabric options',
+      'Outstanding broadband sound absorption',
+      'Lightweight yet durable construction',
+      'Suitable for walls, ceilings, and suspended baffles'
+    ],
+    details: 'The Curved Flexible Acoustic Panel is engineered for architectural freedom. Made from a specialized PET fiber composite that maintains acoustic performance even when curved, these panels can be cold-bent to a minimum radius of 300mm without cracking, making them ideal for wrapping columns, creating flowing ceiling clouds, or forming organic wall features.'
+  },
+  {
+    id: 'curved-flexible-2',
+    name: 'Modern Curved Flexible Acoustic Panels Decorative Soundproof Wall Covering for Hotel Office and Residential Interior Design',
+    nameZh: '酒店办公和住宅室内设计用现代曲面柔性吸音板装饰隔音墙布',
+    category: 'curved-flexible',
+    categoryName: 'Curved Series',
+    description: 'Engineered with a flexible and bendable structure, these acoustic panels easily adapt to curved walls, rounded columns, and unique architectural contours. Combining exceptional sound absorption with a sleek, modern surface finish, they offer a versatile and creative solution for shaping smooth, continuous designs in contemporary spaces.',
+    descriptionZh: '这些隔音板采用灵活可弯曲的结构，可以轻松适应弯曲的墙壁、圆形的柱子和独特的建筑轮廓。它们将卓越的吸音性能与光滑、现代的表面处理相结合，为在当代空间中塑造光滑、连续的设计提供了一种多功能和创造性的解决方案。',
+    coverimage: 'image/product/curved-flexible-2/cover.jpg',
+    images: [
+      'image/product/product/curved-flexible-2/1.jpg',
+      'image/product/product/curved-flexible-2/2.jpg',
+      'image/product/product/curved-flexible-2/3.jpg',
+      'image/product/product/curved-flexible-2/4.jpg',
+      'image/product/product/curved-flexible-2/5.jpg',
+      'image/product/product/curved-flexible-2/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber, Wood Veneer',
+    color: 'White Oak, Walnut, Walnut JK, Grey Oak, Black Oak, W.Oak, Smoke Oak',
+    thickness: '21mm',
+    size: '2400*600mm*21mm/2700*600mm*21mm/3000*600mm*2121mm/600*600mm*2121mm',
+    nrc: '0.85(NRC)',
+    application: 'Curved walls, Pillar wrapping, Rounded room corners, Reception desks, Column cladding...',
+    features: [
+      'Cold-bendable to minimum radius of 300mm',
+      '3D wave profile adds sculptural interest',
+      'Broadband absorption even when curved',
+      'Custom colors and fabric choices',
+      'Lightweight for easy handling on site'
+    ],
+    details: 'This wave-profile flexible panel lets designers sculpt space. Whether forming a rippling lobby ceiling or a flowing acoustic wall, it keeps NRC performance intact while bent.'
+  },
+  {
+    id: 'curved-flexible-3',
+    name: 'Flexible Curved Acoustic Panel Sound Absorbing Wall Board Decorative PET Felt Panel for Interior Wall Decor and Noise Reduction',
+    nameZh: '柔性曲面吸音墙板装饰PET毡板，用于内墙装饰和降噪',
+    category: 'curved-flexible',
+    categoryName: 'Curved Series',
+    description: 'Engineered with a flexible and bendable structure, these acoustic panels easily adapt to curved walls, rounded columns, and unique architectural contours. Combining exceptional sound absorption with a sleek, modern surface finish, they offer a versatile and creative solution for shaping smooth, continuous designs in contemporary spaces.',
+    descriptionZh: '这些隔音板采用灵活可弯曲的结构，可以轻松适应弯曲的墙壁、圆形的柱子和独特的建筑轮廓。它们将卓越的吸音性能与光滑、现代的表面处理相结合，为在当代空间中塑造光滑、连续的设计提供了一种多功能和创造性的解决方案。',
+    coverimage: 'image/product/curved-flexible-3/cover.jpg',
+    images: [
+      'image/product/product/curved-flexible-3/1.jpg',
+      'image/product/product/curved-flexible-3/2.jpg',
+      'image/product/product/curved-flexible-3/3.jpg',
+      'image/product/product/curved-flexible-3/4.jpg',
+      'image/product/product/curved-flexible-3/5.jpg',
+      'image/product/product/curved-flexible-3/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber, Wood Veneer',
+    color: 'White Oak, Walnut, Walnut JK, Grey Oak, Black Oak, W.Oak, Smoke Oak',
+    thickness: '21mm',
+    size: '2400*600mm*21mm/2700*600mm*21mm/3000*600mm*2121mm/600*600mm*2121mm',
+    nrc: '0.85(NRC)',
+    application: 'Curved walls, Pillar wrapping, Rounded room corners, Reception desks, Column cladding...',
+    features: [
+      'Bends to wrap columns and circular surfaces',
+      'Seamless wood veneer look on curves',
+      'PET core absorbs sound around structures',
+      'Precision-engineered for consistent bending',
+      'Custom veneer finishes to match interiors'
+    ],
+    details: 'Columns are usually acoustic dead spots with hard, echoing surfaces. This flexible wood veneer panel wraps around them in a single flowing piece, turning pillars into design features that also absorb sound.'
+  },
+  {
+    id: 'curved-flexible-4',
+    name: 'High Performance Flexible Curved Acoustic Panel Noise Absorption Wall Cladding for Commercial Office and Recording Studio',
+    nameZh: '商业办公和录音室用高性能柔性曲面吸声板吸声墙挂板',
+    category: 'curved-flexible',
+    categoryName: 'Curved Series',
+    description: 'Engineered with a flexible and bendable structure, these acoustic panels easily adapt to curved walls, rounded columns, and unique architectural contours. Combining exceptional sound absorption with a sleek, modern surface finish, they offer a versatile and creative solution for shaping smooth, continuous designs in contemporary spaces.',
+    descriptionZh: '这些隔音板采用灵活可弯曲的结构，可以轻松适应弯曲的墙壁、圆形的柱子和独特的建筑轮廓。它们将卓越的吸音性能与光滑、现代的表面处理相结合，为在当代空间中塑造光滑、连续的设计提供了一种多功能和创造性的解决方案。',
+    coverimage: 'image/product/curved-flexible-4/cover.jpg',
+    images: [
+      'image/product/product/curved-flexible-4/1.jpg',
+      'image/product/product/curved-flexible-4/2.jpg',
+      'image/product/product/curved-flexible-4/3.jpg',
+      'image/product/product/curved-flexible-4/4.jpg',
+      'image/product/product/curved-flexible-4/5.jpg',
+      'image/product/product/curved-flexible-4/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber, Wood Veneer',
+    color: 'White Oak, Walnut, Walnut JK, Grey Oak, Black Oak, W.Oak, Smoke Oak',
+    thickness: '21mm',
+    size: '2400*600mm*21mm/2700*600mm*21mm/3000*600mm*2121mm/600*600mm*2121mm',
+    nrc: '0.85(NRC)',
+    application: 'Curved walls, Pillar wrapping, Rounded room corners, Reception desks, Column cladding...',
+    features: [
+      'Conforms to arches, domes, and barrel vaults',
+      'Lightweight, one-person installation',
+      'Excellent broadband absorption on curved forms',
+      'Custom fabric colors and prints',
+      'Fire-rated Class B1 for public venues'
+    ],
+    details: 'Arched and domed ceilings are acoustically challenging. This foldable PET panel follows the curve naturally, delivering consistent absorption across the whole surface — ideal for theaters, halls, and landmark architecture.'
+  },
+
+  /* ---------- Special Shape Series ---------- */
+  {
+    id: 'special-shape',
+    name: 'MDF Noise Control Wall Decor Interior Panel Soundproof Wood Acoustic Ceiling Panels Wooden Sound Absorbing Board',
+    nameZh: 'MDF隔音墙饰内板隔音木吸音天花板木吸音板',
+    category: 'special-shape',
+    categoryName: 'Special Shape Series',
+    description: 'Designed with unique geometric profiles and custom contours, these specialized acoustic panels break away from traditional flat designs to deliver striking visual depth. Combining exceptional sound absorption with a sleek, modern finish, they offer a creative and versatile solution for making a bold architectural statement in contemporary spaces.',
+    descriptionZh: '这些特殊的声学面板采用独特的几何轮廓和定制轮廓设计，打破了传统的平面设计，提供了惊人的视觉深度。它们将卓越的吸音效果与时尚现代的饰面相结合，为在当代空间中打造大胆的建筑风格提供了一种创造性和多功能的解决方案。',
+    coverimage: 'image/product/special-shape-1/cover.jpg',
+    images: [
+      'image/product/product/special-shape-1/1.jpg',
+      'image/product/product/special-shape-1/2.jpg',
+      'image/product/product/special-shape-1/3.jpg',
+      'image/product/product/special-shape-1/4.jpg',
+      'image/product/product/special-shape-1/5.jpg',
+      'image/product/product/special-shape-1/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak,Black Oak,Grey Oak,Smoke Oak,W.Oak,Customization',
+    thickness: '18mm',
+    size: 'Customized',
+    nrc: '0.85(NRC)',
+    application: 'Feature walls, Art installations, Creative ceiling designs, High-end hospitality interiors...',
+    features: [
+      'Fully customizable shapes and patterns',
+      'CAD/CAM precision manufacturing',
+      'Any wood finish, color, or texture available',
+      'Can integrate lighting and acoustic elements',
+      '3D relief and sculptural possibilities',
+      'End-to-end project support from design to installation'
+    ],
+    details: 'The Special Shape Wood Acoustic Panel service is where craftsmanship meets customization. Our advanced CAD/CAM manufacturing facility can produce acoustic panels in virtually any shape, pattern, or configuration you can imagine — from flowing organic forms to precise geometric patterns, from subtle 3D relief textures to bold sculptural statements.'
+  },
+  {
+    id: 'special-shape-2',
+    name: 'Square Shape Wooden Acoustic Panel 3D Akupanel Wood Wall Decor Interior Board Decorative Wall Panel',
+    nameZh: '方形木质吸音板3D Akupanel木墙饰内板装饰墙板',
+    category: 'special-shape',
+    categoryName: 'Special Shape Series',
+    description: 'Designed with unique geometric profiles and custom contours, these specialized acoustic panels break away from traditional flat designs to deliver striking visual depth. Combining exceptional sound absorption with a sleek, modern finish, they offer a creative and versatile solution for making a bold architectural statement in contemporary spaces.',
+    descriptionZh: '这些特殊的声学面板采用独特的几何轮廓和定制轮廓设计，打破了传统的平面设计，提供了惊人的视觉深度。它们将卓越的吸音效果与时尚现代的饰面相结合，为在当代空间中打造大胆的建筑风格提供了一种创造性和多功能的解决方案。',
+    coverimage: 'image/product/special-shape-2/cover.jpg',
+    images: [
+      'image/product/product/special-shape-2/1.jpg',
+      'image/product/product/special-shape-2/2.jpg',
+      'image/product/product/special-shape-2/3.jpg',
+      'image/product/product/special-shape-2/4.jpg',
+      'image/product/product/special-shape-2/5.jpg',
+      'image/product/product/special-shape-2/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak,Black Oak,Grey Oak,Smoke Oak,W.Oak,Customization',
+    thickness: '18mm',
+    size: 'Customized',
+    nrc: '0.85(NRC)',
+    application: 'Feature walls, Art installations, Creative ceiling designs, High-end hospitality interiors...',
+    features: [
+      'Logos and brand patterns cut into panels',
+      'CAD/CAM precision for repeatable geometry',
+      '3D relief creates depth and shadow',
+      'Full color and finish customization',
+      'Acoustic performance built into the design'
+    ],
+    details: 'Turn your brand into architecture. We translate logos and patterns into precision-cut 3D acoustic panels that anchor reception areas and flagship stores with both identity and sound control.'
+  },
+  {
+    id: 'special-shape-3',
+    name: 'Wood Acoustic Panel Wall Decor Interior Wooden Akupanel Soundproof Board Decorative Wall Panel',
+    nameZh: '木质吸音板墙面装饰室内木质Akupanel隔音板装饰墙板',
+    category: 'special-shape',
+    categoryName: 'Special Shape Series',
+    description: 'Designed with unique geometric profiles and custom contours, these specialized acoustic panels break away from traditional flat designs to deliver striking visual depth. Combining exceptional sound absorption with a sleek, modern finish, they offer a creative and versatile solution for making a bold architectural statement in contemporary spaces.',
+    descriptionZh: '这些特殊的声学面板采用独特的几何轮廓和定制轮廓设计，打破了传统的平面设计，提供了惊人的视觉深度。它们将卓越的吸音效果与时尚现代的饰面相结合，为在当代空间中打造大胆的建筑风格提供了一种创造性和多功能的解决方案。',
+    coverimage: 'image/product/special-shape-3/cover.jpg',
+    images: [
+      'image/product/product/special-shape-3/1.jpg',
+      'image/product/product/special-shape-3/2.jpg',
+      'image/product/product/special-shape-3/3.jpg',
+      'image/product/product/special-shape-3/4.jpg',
+      'image/product/product/special-shape-3/5.jpg',
+      'image/product/product/special-shape-3/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak,Black Oak,Grey Oak,Smoke Oak,W.Oak,Customization',
+    thickness: '18mm',
+    size: 'Customized',
+    nrc: '0.85(NRC)',
+    application: 'Feature walls, Art installations, Creative ceiling designs, High-end hospitality interiors...',
+    features: [
+      'Deep pyramid profile scatters reflections',
+      'High absorption across critical frequencies',
+      'Lightweight panels with simple mounting',
+      'Professional look for studios and stages',
+      'Custom dimensions to fit any layout'
+    ],
+    details: 'The pyramid profile breaks up standing waves and flutter echo in critical listening environments, while the porous core absorbs broadband noise. The standard choice for spaces where audio accuracy matters.'
+  },
+  {
+    id: 'special-shape-4',
+    name: 'New Design Special Shape Wooden Acoustic Panel Wall Decor Interior Board Akupanel Decorative Wall Panel',
+    nameZh: '新设计异形木质吸音板墙面装饰室内板Akupanel装饰墙板',
+    category: 'special-shape',
+    categoryName: 'Special Shape Series',
+    description: 'Designed with unique geometric profiles and custom contours, these specialized acoustic panels break away from traditional flat designs to deliver striking visual depth. Combining exceptional sound absorption with a sleek, modern finish, they offer a creative and versatile solution for making a bold architectural statement in contemporary spaces.',
+    descriptionZh: '这些特殊的声学面板采用独特的几何轮廓和定制轮廓设计，打破了传统的平面设计，提供了惊人的视觉深度。它们将卓越的吸音效果与时尚现代的饰面相结合，为在当代空间中打造大胆的建筑风格提供了一种创造性和多功能的解决方案。',
+    coverimage: 'image/product/special-shape-4/cover.jpg',
+    images: [
+      'image/product/product/special-shape-4/1.jpg',
+      'image/product/product/special-shape-4/2.jpg',
+      'image/product/product/special-shape-4/3.jpg',
+      'image/product/product/special-shape-4/4.jpg',
+      'image/product/product/special-shape-4/5.jpg',
+      'image/product/product/special-shape-4/6.jpg'
+    ],
+    material: 'MDF, 100% Polyester Fiber',
+    color: 'White Oak,Black Oak,Grey Oak,Smoke Oak,W.Oak,Customization',
+    thickness: '18mm',
+    size: 'Customized',
+    nrc: '0.85(NRC)',
+    application: 'Feature walls, Art installations, Creative ceiling designs, High-end hospitality interiors...',
+    features: [
+      'Bespoke geometric cuts for signature interiors',
+      'Coordinates with lighting and display design',
+      'Softens reverberation in large public halls',
+      'Premium finishes matched to your palette',
+      'Prototype and sampling support available'
+    ],
+    details: 'For interiors that must feel exclusive, we machine custom geometric panels that echo the design language of the space. Each installation is a one-off composition that quietly controls the acoustic environment.'
+  }
+];
+
+// Product search and filter
+function renderProductCards(filterCategory, searchQuery) {
+  const grid = document.getElementById('products-grid');
+  if (!grid) return;
+
+  let filtered = products;
+
+  if (filterCategory && filterCategory !== 'all') {
+    filtered = filtered.filter(p => p.category === filterCategory);
+  }
+
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    filtered = filtered.filter(p =>
+      p.name.toLowerCase().includes(q) ||
+      p.nameZh.toLowerCase().includes(q) ||
+      p.description.toLowerCase().includes(q) ||
+      p.categoryName.toLowerCase().includes(q) ||
+      p.material.toLowerCase().includes(q)
+    );
+  }
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `
+      <div class="no-results animate-fade-in">
+        <div class="no-results-icon">🔍</div>
+        <h3>No Products Found</h3>
+        <p>Try adjusting your search or filter criteria.</p>
+      </div>
+    `;
+    return;
+  }
+
+  grid.innerHTML = filtered.map((p, i) => {
+    // 兼容尚未添加 coverimage 的产品，避免报错，没图片的展示空白背景
+    const coverSrc = p.coverimage ? p.coverimage : '';
+    return `
+      <a href="product-detail.html?id=${p.id}" class="product-card animate-fade-in-up delay-${(i % 4) + 1}">
+        <div class="product-card-img" style="background: #f4f6f8;">
+          ${coverSrc ? `<img src="${coverSrc}" alt="${p.name}" style="width: 100%; height: 100%; object-fit: cover;">` : ''}
+        </div>
+        <div class="product-card-body">
+          <div class="product-card-category">${p.categoryName}</div>
+          <h3>${p.name}</h3>
+          <p>${p.description}</p>
+          <span class="product-card-link">View Details →</span>
+        </div>
+      </a>
+    `;
+  }).join('');
+}
+
+// Detail images per product category (image/details folder)
+const detailImages = {
+  'wood-veneer': 'image/details/wood.jpg',
+  'ps-slat': 'image/details/PS.jpg',
+  'hexagon-wood': 'image/details/hexagon.jpg',
+  'curved-flexible': 'image/details/flexible.jpg',
+  'special-shape': 'image/details/special.jpg'
+};
+
+// Product detail
+function renderProductDetail() {
+  const params = new URLSearchParams(window.location.search);
+  const productId = params.get('id');
+  const product = products.find(p => p.id === productId);
+
+  if (!product) {
+    document.getElementById('product-detail-container').innerHTML = `
+      <div class="no-results" style="padding:120px 0">
+        <div class="no-results-icon">📦</div>
+        <h3>Product Not Found</h3>
+        <p>The product you are looking for does not exist.</p>
+        <a href="products.html" class="btn btn-primary" style="margin-top:20px">Back to Products</a>
+      </div>
+    `;
+    return;
+  }
+
+  document.title = `${product.name} - Suzhou Vigor`;
+  document.getElementById('product-name').textContent = product.name;
+  document.getElementById('product-category').textContent = product.categoryName;
+  document.getElementById('product-description').textContent = product.description;
+
+  // ========== 关键修改：动态渲染详情页主图 ==========
+  const mainImgContainer = document.getElementById('product-main-img');
+  if (mainImgContainer) {
+    // 移除原有样式的 class，保留基础 container
+    mainImgContainer.className = 'product-main-img'; 
+    
+    // 取第一张主图，如果没写 images 数组，则回退尝试取 coverimage
+    let firstImageSrc = '';
+    if (product.images && product.images.length > 0) {
+      firstImageSrc = product.images[0];
+    } else if (product.coverimage) {
+      firstImageSrc = product.coverimage;
+    }
+
+    // 动态植入 img 标签，确保原有的左侧布局完美贴合
+    if (firstImageSrc) {
+      mainImgContainer.innerHTML = `<img id="main-product-image" src="${firstImageSrc}" alt="${product.name}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px; display: block;">`;
+    } else {
+      mainImgContainer.innerHTML = ''; // 如果你还没配图片则留空
+    }
+  }
+
+  // Update WhatsApp link
+  const waLink = document.getElementById('whatsapp-product-link');
+  if (waLink) {
+    waLink.href = `https://wa.me/8613812831131?text=Hello, I am interested in ${encodeURIComponent(product.name)}. Please send me more information.`;
+  }
+
+  // Specs table (in product info column)
+  const specsHTML = `
+    <tr><td>Material</td><td>${product.material || '-'}</td></tr>
+    <tr><td>Color Options</td><td>${product.color || '-'}</td></tr>
+    <tr><td>Thickness</td><td>${product.thickness || '-'}</td></tr>
+    <tr><td>Standard Size</td><td>${product.size || '-'}</td></tr>
+    <tr><td>Sound Absorption</td><td>${product.nrc || '-'}</td></tr>
+    <tr><td>Application</td><td>${product.application || '-'}</td></tr>
+  `;
+  document.getElementById('specs-table').innerHTML = specsHTML;
+
+  // ========== 底部长图保持原样，不变 ==========
+  const detailImg = document.getElementById('detail-image');
+  if (detailImg) {
+    detailImg.src = detailImages[product.category] || 'image/details/wood.jpg';
+    detailImg.alt = `${product.name} - Detail Information`;
+  }
+
+  // ========== 关键修改：渲染左侧主图下方的 6 张缩略图 ==========
+  const thumbsContainer = document.getElementById('product-thumbnails');
+  if (thumbsContainer) {
+    if (product.images && product.images.length > 0) {
+      thumbsContainer.innerHTML = product.images.map((imgSrc, i) => `
+        <div class="product-thumb ${i === 0 ? 'active' : ''}" style="padding: 0; overflow: hidden; border-radius: 4px; cursor: pointer;" onclick="switchThumbnail(this, '${imgSrc}')">
+          <img src="${imgSrc}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+      `).join('');
+    } else {
+      // 没填 images 数组时清空占位符
+      thumbsContainer.innerHTML = '';
+    }
+  }
+}
+
+// ========== 关键修改：点击缩略图切换图片而不是 Emoji ==========
+function switchThumbnail(el, imgSrc) {
+  document.querySelectorAll('.product-thumb').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  const mainImageEl = document.getElementById('main-product-image');
+  if (mainImageEl) {
+    mainImageEl.src = imgSrc;
+  }
+}
+
+// Filter tabs on products page
+document.addEventListener('DOMContentLoaded', () => {
+  // Product search
+  const searchInput = document.getElementById('product-search');
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      const activeFilter = document.querySelector('.filter-tab.active')?.dataset.category || 'all';
+      renderProductCards(activeFilter, searchInput.value);
+    });
+  }
+
+  // Filter tabs
+  document.querySelectorAll('.filter-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const category = tab.dataset.category;
+      const query = document.getElementById('product-search')?.value || '';
+      renderProductCards(category, query);
+    });
+  });
+
+  // Activate filter tab from URL category param (e.g. products.html?category=wood-veneer)
+  const urlCategory = new URLSearchParams(window.location.search).get('category');
+  if (urlCategory) {
+    const targetTab = document.querySelector(`.filter-tab[data-category="${urlCategory}"]`);
+    if (targetTab) {
+      document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+      targetTab.classList.add('active');
+    }
+  }
+});
